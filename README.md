@@ -18,8 +18,8 @@ https://www.kaggle.com/datasets/muthuj7/weather-dataset
 weather_prediction_project/
 ├── data/
 │   └── my_weather_data.csv      # CSV file containing the dataset
-├── models/
-│   └── model.pkl                # (optional) saved model
+├── images
+    └── output.jpg               # contains output image of the graphs
 ├── weather_predictor.py         # main script for training, evaluation, and visualization
 ├── requirements.txt             # Python dependencies
 └── README.md
@@ -139,12 +139,15 @@ humidity               -0.632
 loud_cover                NaN
 Name: temperature, dtype: float64
 
+![Weather Analysis](images/output.jpg)
+
 
 
 ```
 
-A scatter plot is also shown comparing actual vs predicted temperature values.
+A scatter plot is also shown comparing various aspects of weather.
 
+![Weather Analysis](images/output.jpg)
 ---
 
 ## Next Steps
